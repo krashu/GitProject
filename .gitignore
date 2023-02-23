@@ -1,2 +1,2 @@
-# ignore .txt files
-*.txt
+# ignore git commands file
+git commands.txt
