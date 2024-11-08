@@ -1,2 +1,4 @@
 This is a text file.
  Edited in branch1
+
+added line
