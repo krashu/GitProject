@@ -1,5 +1,7 @@
 This is a text file.
  Edited in branch1
 
+
+branch1 line
 added line
 update line
