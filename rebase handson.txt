@@ -1,0 +1,32 @@
+git clone .assessment/remote
+cd remote
+vim check_number.py 
+---edit file and it look same as below----
+#Checks whether number 4 is even or odd 
+
+num = 4 
+if (num % 2) == 0: 
+   print("{0} is Even".format(num)) 
+else: 
+   print('{0} is Odd'.format(num))
+----close and save-----
+git commit -am 'first'
+cd ..
+bash .fetch_sh
+cd remote
+git fetch origin master
+git diff master origin/master
+git pull --rebase origin master
+vim check_number.py
+----edit file and it look same as below---
+#Read user input and checks whether it's even or odd
+
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print('{0} is Odd'.format(num))
+----close and save -------
+git add check_number.py
+git rebase --continue
+git push
