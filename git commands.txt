@@ -183,3 +183,7 @@ git remote -v
 
 This will list your remotes and show the new name.
 
+To configure vscode for editing 
+```
+git config --global core.editor "code --wait"
+```
