@@ -187,3 +187,16 @@ To configure vscode for editing
 ```
 git config --global core.editor "code --wait"
 ```
+
+------------------------------------------------------------------------
+
+Put pending changes to a temporary holding area when you want to go to another time in a same branch
+
+```bash
+git stash
+```
+to get that changes again 
+```bash
+git stash pop
+```
+
